@@ -1,0 +1,47 @@
+.userList{
+    flex: 4;
+
+}
+
+.userListUser{
+    display: flex;
+    align-items:center;
+
+}
+
+.userListImg{ /*User jon snow circle image */
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px; 
+}
+
+.userListEdit{ /* User Green Edit icon */
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+
+}
+
+.userListDelete{ 
+    color: red;
+    cursor:pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
